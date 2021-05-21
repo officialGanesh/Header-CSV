@@ -24,6 +24,11 @@ def Remove_header():
                                 continue
                             csv_header_rows.append(row)
                     
+                    with open(f'Results/{file}','w',newline='') as csv_file:
+                        csv_writer = csv.writer(csv_file)
+                        for row in csv_header_rows:
+                            csv_writer.writerow(row)
+
             except Exception as e:
                 print('Something Went Wrong ',e)
 
