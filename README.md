@@ -2,11 +2,11 @@
 
 ## Project Description
 In this project we'll opening the csv file ,read the content from file then try to remove the
-header row. 
+header row. Also this project is a part of 'AUTOMATE THE BORING STUFF USING PYTHON (by AL SWEIGART)'
 
 ### Project Requirements
 1️⃣ csv and os module
-2️⃣ csv files
+2️⃣ csv files 
 
 
 ### TODO
